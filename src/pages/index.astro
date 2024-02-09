@@ -3,8 +3,31 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
 ---
 <MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-		<p>tissemand</p>
+	<article class="grid grid-cols-2">
+		<img src="../../public/kobenhavnerbilleder-sten-simons.jpg" alt="" class="">
+		<div class="flex flex-col mx-5">
+			<h1 class="mb-5 text-center text-3xl font-bold">Københavnerbilleder - en guide til hipster foto
+				af Sten Simons
+				</h1 >
+			<p>Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!	 </p>
+			<Button>hej</Button>
+		</div>
 	</article>
+
+	<div class="flex flex-row items-center mx-14 my-5 ">
+		<p class="items-center flex ">Titel: Københavnerbilleder - en guide til hipster foto
+			Forfatter: Sten Simons
+			Antal sider: 344
+			Forlag: Mellem Linjerne
+			ISBN: 987-6-987654-32-1
+			Pris: 399.-
+			</p>
+		<p class=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor fuga, velit iste amet illum at provident blanditiis ad nam facilis perferendis distinctio a voluptate vero, nemo quasi possimus cumque.</p>
+	</div>
+
+	<div class="flex flex-rows">
+		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="">
+		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="">
+		<img src="../../public/sten_simons.jpg" alt="">
+	</div>
 </MainLayout>
