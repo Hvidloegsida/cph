@@ -3,31 +3,250 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
 ---
 <MainLayout title="Titel">
-	<article class="grid grid-cols-2">
-		<img src="../../public/kobenhavnerbilleder-sten-simons.jpg" alt="" class="">
-		<div class="flex flex-col mx-5">
-			<h1 class="mb-5 text-center text-3xl font-bold">Københavnerbilleder - en guide til hipster foto
+	<article id="section1" class="grid grid-cols-2 mt-40 mx-40 jsani">
+		<img src="../../public/kobenhavnerbilleder-sten-simons.jpg" alt="" class="object-contain rounded-md">
+		<div class="flex flex-col mx-16 place-content-center">
+			<h1  class="mb-5 text-center text-3xl font-bold text-textcol font-bsd">Københavnerbilleder - en guide til hipster foto
 				af Sten Simons
 				</h1 >
-			<p>Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!	 </p>
-			<Button>hej</Button>
+			<p class="text-textcol font-pop">Københavnerbilleder er de danske streetfotografers bibel: Det er en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle væsentlige aspekter af streetfotografering fra grundlæggende teknik til kreative eksperimenter. Alt sammen krydret med masser af inspirerende fotos. God læselyst!	 </p>
+		<a href="#section3" class="justify-self-start mt-9"><Button variant="primary" size="primary">Køb nu!</Button></a>
+		
+		
 		</div>
 	</article>
 
-	<div class="flex flex-row items-center mx-14 my-5 ">
-		<p class="items-center flex ">Titel: Københavnerbilleder - en guide til hipster foto
+	<div class="flex flex-row items-center mx-40 my-16 gap-x-36  jsani2">
+		<p class="items-center flex text-textcol font-pop">Titel: Københavnerbilleder - en guide til hipster foto
 			Forfatter: Sten Simons
 			Antal sider: 344
 			Forlag: Mellem Linjerne
 			ISBN: 987-6-987654-32-1
 			Pris: 399.-
 			</p>
-		<p class=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor fuga, velit iste amet illum at provident blanditiis ad nam facilis perferendis distinctio a voluptate vero, nemo quasi possimus cumque.</p>
+		<p class="text-textcol font-pop"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor fuga, velit iste amet illum at provident blanditiis ad nam facilis perferendis distinctio a voluptate vero, nemo quasi possimus cumque.</p>
 	</div>
 
-	<div class="flex flex-rows">
-		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="">
-		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="">
-		<img src="../../public/sten_simons.jpg" alt="">
+	<div class="grid grid-cols-3 grid-row-1 items-center gap-x-16 mx-40 jsani2">
+		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="" class="object-fit rounded-md">
+		
+			<img src="../../public/kobenhavnerbilleder-sten-simons.jpg" alt="" class="rounded-md">
+
+		<img src="../../public/kobenhavnerbilleder_oppefra.jpg" alt="" class=" max-w-fullobject-fi" rounded-md>
 	</div>
+	<div class="bg-divcol p-1 mt-40 mx-16"></div>
+	<h1 class="mx-40 mt-40 font-bold text-textcol text-3xl mb-20 font-bsd">Kapitlerne</h1>
+	<section class="jsani3 grid grid-cols-2 grid-rows-4 mt-5 gap-x-12 gap-y-12 mx-40 text-textcol">
+		
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 1 - Intro til street foto
+			</h2>
+			<p class="text-textcol">Hvad er street foto? Det handler i bund og grund om at skyde byens liv og byens geometri (urban geometry). I dette kapitel får du en grundig intro til hvad street foto er og et overblik over nogen af de kendte street-fotografer. Alt krydret med en masse gode eksempler på street fotos.
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 2 - Om at skyde street
+			</h2>
+			<p>Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud på gaderne og prøve det! I dette kapitel får du en teknisk indføring i hvordan du bedst skyder street. Uanset om du er begynder eller professionel, er der mange gode tekniske tips og tricks til street-skyderiet.
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 3 - Om at finde det rette motiv
+			</h2>
+			<p>Indimellem er man heldig, andre gange kommer man hjem helt uden gode motiver. Med et par tips og tricks til at finde de rette motiver, stiger chancen gevaldigt for at fange de gode motiver.
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 4 - Digital street foto
+			</h2>
+			<p>De fleste af os skyder oftest digitalt fordi det er billigere og nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til digital street foto. I dette kapitel får du en række tips og tricks til digital street-foto. 
+			</p>
+		</div>
+	
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 5 - Analog street foto
+			</h2>
+			<p>Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt end digital. Det signalerer entusiasme. Nogle teknikker og fremgangsmåder egner sig bedst til analog street foto. I dette kapitel får du en række tips og tricks til analog street-foto. 
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 6 - Om at skyde sort/hvid
+		</h2>
+			<p>Alle street-fotografer skyder sort/hvid nu og da. Nogen altid. Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad adskiller sort/hvid fra farvefotografering? Her får du en række tips og tricks til sort/hvid fotografering. 
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 7 - Kreative teknikker 
+			</h2>
+			<p>Dobbelteksponeringer, ICM (intentional camera moves), smadrede objektiver, gamle filmruller og alle mulige andre, spændende kreative teknikker kan løfte dine fotografier fra at være kedelige dokumentationer af hverdagen til at blive vilde kunststykker. Så dyk ned i dette kapitel om eksperimenterende teknikker!
+			</p>
+		</div>
+		<div class="flex flex-col font-pop">
+			<h2 class="font-bold">Kapitel 8 - Kom helt tæt på!
+			</h2>
+			<p>Kapitel 8 - Kom helt tæt på!
+			</p>
+		</div>
+	
+	</section>
+	<div class="bg-divcol p-1 mt-40 mx-16"></div>
+	<h1 class="mt-40 mx-40 font-bold text-textcol text-3xl mb-20 font-bsd">Pressen</h1>
+	<section class=" jsani4 flex flex-row gap-x-12 mx-40 text-textcol">
+		<div class="flex flex-col items-center font-pop">
+			<div class="font-bold" >5 af 6 stjerner</div >
+			<p class="text-center	">Københavnerbilleder er en grundig introduktion til at skyde billeder med retro-kant. Hvad enten du er har arbejdet med foto siden 135-filmen kom på markedet, du kun har skudt digitalt eller er helt nybegynder, er der masser af tips og tricks i bogen.
+				Hanne Hovgaard, Berlingeren 
+				</p>
+		</div>
+		<div class="flex flex-col items-center font-pop">
+			<div class="font-bold">4 af 5 stjerner</div>
+		<p class="text-center	">Teksten er underholdende, og billederne er sku’ flotte. Hvad mere skal man sige om en fotobog?
+			Kim Kloggaard, Fotojournalen.dk
+			</p>
+	</div>
+	<div class="flex flex-col items-center font-pop">
+		<div class="font-bold">6 af 6 stjerner
+		</div>
+		<p class="text-center	">Sten Simons kan det der - og han bliver bedre og bedre. Stens tredje fotobog er klart den bedste - her er han for alvor i sit rette element, meget bedre end “studiefotografering som begyndere.” Tillykke - godt arbejde.
+			Volmer Hansen, Lukkertiden.dk 
+			</p>
+	</div>
+	</section>
+	<div class="bg-divcol p-1 mt-40 mx-16"></div>
+	<h1 class="mx-40 mt-40 font-bold text-textcol text-3xl mb-20 font-bsd">Billeder fra bogen</h1>
+	<section class=" jsani5 grid grid-cols-4 grid-row-3 place-items-center gap-4 mx-40">
+<img src="../../public/galleri/0008.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-14.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-16.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-19.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-24.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/agfa-genanvendeligt-kamera-35mm-11.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-12.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/_6090016.jpeg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/orestad-til-islands-brygge-pentax-auto-110-8.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/pinhole-objektiver-ved-eghjorten-3.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+<img src="../../public/galleri/amarminoen-med-et-agfa-le-box-12.jpg" alt="" class="rounded-md hover:scale-110 transition-all ease-in duration-300">
+	</section>
+	<div class="bg-divcol p-1 mt-40 mx-16"></div>
+	<h1 id="section2" class="mx-40 font-bold mt-40 text-textcol text-3xl mb-20 font-bsd">Forfatteren</h1>
+	<article class=" jsani6 grid grid-cols-2 mx-40 gap-x-6">
+		<img class="w-full max-w-m rounded-md" src="../../public/sten_simons.jpg" alt="">
+		<p class="place-self-center flex text-textcol font-pop">Sten Simons har en lang foto-karriere bag sig. Det hele startede i 00’erne, da han gik rundt i Pisserenden for at fotografere ungdommens forfald. Det ledte til en række udstillinger, og blev senere til hans først fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
+			Derefter tog karrieren fart: Han blev fotojournalist og dokumenterede en masse dagligdagsstof fra Amager på dagbladet “Amagerkaneren.” Sideløbende begyndte han at undervise i foto, og har skrevet et utal af bøger, herunder bestsellerne Scener fra S-toget, Brun mad - en visuel odysse, og lærebogen Fotografering for evnesvage.</p>
+	</article>
+	<div class="bg-divcol p-1 mt-40 mx-16"></div>
+	<h1 id="section3" class="mx-40 mt-40 font-bold text-textcol text-3xl mb-20 font-bsd">
+		Køb Københavnerbilleder nu!
+	</h1>
+	<form action="" class=" jsani7 mx-80 mt-16 mb-16 font-pop">
+
+        <div class="flex flex-col  gap-y-2 mb-7">
+            <label for="antalboeger">Antal</label>
+            <input type="number" name="antalboeger" id="antalboeger">
+        </div>
+
+        <div class="flex flex-row gap-y-2 mb-7 gap-x-5">
+            <span>Levering</span>
+            <input type="radio" name="levering" id="postnord">
+            <label for="postnord">Postnord</label>
+
+            <input type="radio" name="levering" id="afhent">
+            <label for="afhent">Afhent selv</label>
+        </div>
+
+        <div class="flex flex-col gap-y-2 mb-7">
+            <label for="fuldenavn">Fuldenavn:</label>
+            <input type="text" name="fuldenavn" id="fuldenavn">
+        </div>
+
+        <div class="flex flex-col gap-y-2 mb-7">
+            <label for="adressenavn">Adresse:</label>
+            <input type="text" name="adressenavn" id="adressenavn">
+        </div>
+
+        <div class="flex flex-col gap-y-2 mb-7">
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email">
+        </div>
+
+        <div class="flex flex-col gap-y-2 mb-7">
+            <span>Postnummer og bynavn:</span>
+            <label for="postnummer"></label>
+            <input type="text" name="post" id="postnummer">
+
+            <label for="by"></label>
+            <input type="text" name="bynavn" id="by">
+        </div>
+
+        <div class="flex flex-col gap-y-2 mb-7">
+            <label for="telnummer">Telefon:</label>
+            <input type="tel" name="telnummer" id="telnummer">
+        </div>
+
+        <div class="flex gap-y-2  gap-x-5 mb-7">
+            <label for="check">Ja tak til nyhedsbreve og tilbud</label>
+            <input type="checkbox" name="check" id="check" class="mt-1">
+        </div>
+
+        <div x-data>
+            <Button variant="secondary" size="secondary">Submit</Button>
+        </div>
+
+    </form>
+
+
+	
 </MainLayout>
+
+<script>
+
+import { inView } from "motion";
+
+const jsani = document.querySelector(".jsani");
+
+inView(jsani, () => {
+  jsani.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+const jsani2 = document.querySelector(".jsani2");
+
+inView(jsani2, () => {
+  jsani2.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+
+const jsani3 = document.querySelector(".jsani3");
+
+inView(jsani3, () => {
+  jsani3.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+
+const jsani4 = document.querySelector(".jsani4");
+
+inView(jsani4, () => {
+  jsani4.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+
+const jsani5 = document.querySelector(".jsani5");
+
+inView(jsani5, () => {
+  jsani5.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+const jsani6 = document.querySelector(".jsani6");
+
+inView(jsani6, () => {
+  jsani6.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+const jsani7 = document.querySelector(".jsani7");
+
+inView(jsani7, () => {
+  jsani7.classList.add("animate__animated", "animate__fadeInDown");
+});
+
+
+</script>
